@@ -5,6 +5,7 @@
 
 ####Homework:
 
+#####Class code
 
     class seq:
         def count(self,direc):
@@ -61,6 +62,7 @@
             else:
                 print "This is a low GC content organism!\n"
 
+#####Invoking class
 
     sample_dir="./homework/homework2/data/sample_1.fastq"
     summary_sample=seq(sample_dir)
@@ -85,6 +87,8 @@
     sample_dir="./homework/homework2/data/sample_6.fastq"
     summary_sample=seq(sample_dir)
     summary_sample.report()
+
+#####The report shows up here:
 
     The report of  ./homework/homework2/data/sample_1.fastq :
     The total length of nuclotides in this fastq is:  27000000
