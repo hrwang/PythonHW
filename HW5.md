@@ -395,7 +395,7 @@ and the parameter $a$):
     F.plot(1)
 
 
-![png](https://github.com/hrwang/PythonHW/blob/master/HW5_30_0.png)
+![alt text](https://github.com/hrwang/PythonHW/blob/master/HW5_30_0.png)
 
 
 
