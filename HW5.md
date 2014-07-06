@@ -69,7 +69,7 @@ reading assignement.
     show()
 
 
-![png](https://github.com/hrwang/PythonHW/blob/master/HW5_10_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW5_10_0.png)
 
 
 Redo the same exercise using now Numpy arrays, Numpy <code>linspace</code>
@@ -87,7 +87,7 @@ below.
     show()
 
 
-![png](https://github.com/hrwang/PythonHW/blob/master/HW5_12_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW5_12_0.png)
 
 
 # Graded Exercises
