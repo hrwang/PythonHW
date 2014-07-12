@@ -140,7 +140,7 @@ Series F, M, and H, and then display their first:
 
 
 
-![png](HW6_files/HW6_13_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW6_13_1.png)
 
 
 
@@ -331,7 +331,7 @@ Then display the histogram of this Series, as well as its histogram
 
 
 
-![png](HW6_files/HW6_21_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW6_21_1.png)
 
 
 Add the <code>total_grade</code> Series you created above to the
@@ -623,7 +623,7 @@ markdown cells surrounding them.**
     tg=tgo.tolist()   
 
 
-![png](HW6_files/HW6_29_0.png)
+![png](https://github.com/hrwang/PythonHW/blob/master/HW6_29_0.png)
 
 
 
