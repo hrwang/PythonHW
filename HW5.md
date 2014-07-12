@@ -69,7 +69,7 @@ reading assignement.
     show()
 
 
-![png](HW5_files/HW5_10_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW5_10_0.png)
 
 
 Redo the same exercise using now Numpy arrays, Numpy <code>linspace</code>
@@ -87,7 +87,7 @@ below.
     show()
 
 
-![png](HW5_files/HW5_12_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW5_12_0.png)
 
 
 # Graded Exercises
@@ -395,7 +395,7 @@ and the parameter $a$):
     F.plot(1)
 
 
-![png](HW5_files/HW5_30_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW5_30_0.png)
 
 
 
