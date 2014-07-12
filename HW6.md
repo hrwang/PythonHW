@@ -623,7 +623,7 @@ markdown cells surrounding them.**
     tg=tgo.tolist()   
 
 
-![png](https://github.com/hrwang/PythonHW/blob/master/HW6_29_0.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW6_29_0.png)
 
 
 
