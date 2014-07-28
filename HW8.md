@@ -364,7 +364,7 @@ statistics:
 
 
 
-![png](HW8_files/HW8_18_2.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_18_2.png)
 
 
 The <code>boxplot</code> method makes a **box** (the rectangle in blue) and
@@ -432,7 +432,7 @@ value **barh**.
 
 
 
-![png](HW8_files/HW8_24_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_24_1.png)
 
 
 * Construct a DataFrame named <code>average</code> with a single column named
@@ -540,7 +540,7 @@ boxplots of the average per major, by setting the "by" argment to the column
 
 
 
-![png](HW8_files/HW8_30_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_30_1.png)
 
 
 * Explain in the markdown cell below what you see from the boxplot above if
@@ -609,7 +609,7 @@ print the statistics summary of the total point grades.
 
 
 
-![png](HW8_files/HW8_40_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_40_1.png)
 
 
 
@@ -654,7 +654,7 @@ corresponding boxplot:
 
 
 
-![png](HW8_files/HW8_44_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_44_1.png)
 
 
 * Compute the values for the lower and upper whisker in the boxplot above (see
@@ -916,7 +916,7 @@ students per letter grade. Display the Series returned by
 
 
 
-![png](HW8_files/HW8_55_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_55_1.png)
 
 
 * Display a bar plot of the Series constructed in the cell above:
@@ -1044,7 +1044,7 @@ same axes.
 
 
 
-![png](HW8_files/HW8_61_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_61_1.png)
 
 
 * Repeat the previous question but for the sections instead of the majors.
@@ -1060,7 +1060,7 @@ same axes.
 
 
 
-![png](HW8_files/HW8_63_1.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_63_1.png)
 
 
 * Create a dataframe with columns the letter grades 'A', 'B', 'C', 'D', and 'F'
@@ -1105,7 +1105,7 @@ per section. Display the DataFrame.
 
 
 
-![png](HW8_files/HW8_65_2.png)
+![png](https://raw.githubusercontent.com/hrwang/PythonHW/master/HW8_65_2.png)
 
 
 * Plot the DataFrame above as a bar plot.
