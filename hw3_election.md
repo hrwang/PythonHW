@@ -10,7 +10,7 @@ See problem 3-2.
 6. Solution 6-4: Does dict change the order of its items? Possible bug.
 
 
-
+<code>
     import csv 
     import os
     import time
@@ -24,12 +24,12 @@ See problem 3-2.
         for row in csv.DictReader(open(path)):
             output.append(row)
         return output
-
+</code>
 
 
     #read_csv( "./data/2008-results.csv")
 
-
+<code>
     ################################################################################
     # Problem 1: State edges
     ################################################################################
@@ -69,14 +69,14 @@ See problem 3-2.
     
     """
 
-
+</code>
 
 
     "\nrows2 = [{'State': 'WA', 'Dem': '1.0', 'Rep': '0.1'}]#,\n        #{'State': 'CA', 'Dem': '0.2', 'Rep': '1.3'}\n\n\n#assert state_edges(rows2) == {'WA': 0.9, 'CA': -1.1}\n\nstate_edges(rows2)\n#print rows2\n\n"
 
 
 
-
+<code>
     ### Solution for Problem 2
     
     import time
@@ -122,14 +122,14 @@ See problem 3-2.
     print most_recent_poll_row(poll_rows1, "A", "WA") 
     """
 
-
+</code>
 
 
     '\npoll_rows1 = [{"ID":1, "State":"WA", "Pollster":"A", "Date":"Jan 07 2010"},\n              {"ID":2, "State":"WA", "Pollster":"B", "Date":"Mar 21 2010"},\n              {"ID":3, "State":"WA", "Pollster":"A", "Date":"Jan 08 2010"},\n              {"ID":4, "State":"OR", "Pollster":"A", "Date":"Feb 10 2010"},\n              {"ID":5, "State":"WA", "Pollster":"B", "Date":"Feb 10 2010"},\n              {"ID":6, "State":"WA", "Pollster":"B", "Date":"Mar 22 2010"}]\n\n\nprint most_recent_poll_row(poll_rows1, "A", "SS") \nprint most_recent_poll_row(poll_rows1, "A", "WA") \n'
 
 
 
-
+<code>
     ### Solution for Problem 3-1
     def unique_column_values(rows, column_name):
         """
@@ -154,14 +154,14 @@ See problem 3-2.
     print unique_column_values(poll_rows1, "State")
     """
 
-
+</code>
 
 
     '\nprint unique_column_values(poll_rows1, "Pollster")\nprint unique_column_values(poll_rows1, "State")\n'
 
 
 
-
+<code>
     ### Solution for Problem 3-2
     
     def pollster_predictions(poll_rows):
@@ -209,14 +209,14 @@ See problem 3-2.
         #== {'PPP': {'WA': 0.9}}
     """
 
-
+</code>
 
 
     "\nrows4 = [\n      {'State': 'WA', 'Dem': '1.0', 'Rep': '0.1', 'Date': 'Nov 05 2008', 'Pollster': 'PPP'},\n      {'State': 'WA', 'Dem': '1.0', 'Rep': '10.3', 'Date': 'Nov 04 2008', 'Pollster': 'PPP'}]\nrows3 = [\n      {'State': 'WA', 'Dem': '1.0', 'Rep': '0.1', 'Date': 'Nov 05 2008', 'Pollster': 'PPP'},\n      {'State': 'CA', 'Dem': '2.1', 'Rep': '3.2', 'Date': 'Nov 04 2008', 'Pollster': 'PPP'},\n      {'State': 'CA', 'Dem': '2.1', 'Rep': '3.2', 'Date': 'Nov 06 2008', 'Pollster': 'PPP'},\n      {'State': 'WA', 'Dem': '9.1', 'Rep': '7.1', 'Date': 'Nov 05 2008', 'Pollster': 'IPSOS'},\n      {'State': 'CA', 'Dem': '1.0', 'Rep': '10.3', 'Date': 'Nov 04 2008', 'Pollster': 'IPSOS'}]\n\npollster_predictions(rows3) ['PPP']\n    #== {'PPP': {'WA': 0.9}}\n"
 
 
 
-
+<code>
     ## Solution for problem 4-1
     def average_error(state_edges_predicted, state_edges_actual):
         """
@@ -240,7 +240,7 @@ See problem 3-2.
     #assert average_error(state_edges_pred_1, state_edges_act_1) == 1.0
     """
     
-    
+</code>  
 
 
 
@@ -250,7 +250,7 @@ See problem 3-2.
 
 
 
-
+<code>
     ## Solution for problem 4-2
     
     def pollster_errors(pollster_predictions, state_edges_actual):
@@ -277,11 +277,11 @@ See problem 3-2.
     
     """
     print 'x'
-
+</code>
     x
 
 
-
+<code>
     #### Solution for Problem 5
     
     def pivot_nested_dict(nested_dict):
@@ -325,13 +325,13 @@ See problem 3-2.
     assert pivot_nested_dict(us_wars_by_name) == us_wars_by_start_and_end
     """
 
-
+</code>
 
 
     '\nus_wars_by_name = {\n        "Revolutionary" : { "start": 1775, "end": 1783 },\n        "Mexican" : { "start": 1846, "end": 1848 },\n        "Civil" : { "start": 1861, "end": 1865 }\n        }\nus_wars_by_start_and_end = {\n        \'start\': {\'Revolutionary\': 1775, \'Civil\': 1861, \'Mexican\': 1846},\n        \'end\': {\'Revolutionary\': 1783, \'Civil\': 1865, \'Mexican\': 1848}\n        }\nprint pivot_nested_dict(us_wars_by_name)\n\nassert pivot_nested_dict(us_wars_by_name) == us_wars_by_start_and_end\n'
 
 
-
+<code>
 
     #### Solution for 6-1
     def average_error_to_weight(error):
@@ -398,12 +398,12 @@ See problem 3-2.
     weighted_average([0, 1, 2, 3, 4], [0, 1, 2, 3, 4])
 
 
-
+</code>
 
     3
 
 
-
+<code>
 
     #### Solution for Problem 6-3
     DEFAULT_AVERAGE_ERROR = 5.0
@@ -433,14 +433,14 @@ See problem 3-2.
     
     """
 
-
+</code>
 
 
     '\ndef test_pollster_to_weight():\n    pollster_errors = {"Gallup":4, "Rasmussen":10, "SurveyUSA":.25}\n    assert pollster_to_weight("Gallup", pollster_errors) == 0.0625\n    assert pollster_to_weight("SurveyUSA", pollster_errors) == 16\n    assert pollster_to_weight("Google", pollster_errors) == 0.04\n\npollster_errors = {"Gallup":4, "Rasmussen":10, "SurveyUSA":.25}\npollster_to_weight("Gallup", pollster_errors)\n\n'
 
 
 
-
+<code>
     ### Solution for 6-4
     def average_edge(pollster_edges, pollster_errors):
         """
@@ -477,7 +477,7 @@ See problem 3-2.
                             {"p1":1, "p2":2, "p3":3, "p4":4, "p5":5})
     average_edge({"p1":2, "p2":4, "p3":4, "p4":6}, {"p1":1, "p2":1, "p3":1, "p4":5})
     
-    
+ </code> 
 
 
 
@@ -487,7 +487,7 @@ See problem 3-2.
 
 
 
-
+<code>
     #### Solution for 7
     
     def predict_state_edges(pollster_predictions, pollster_errors):
@@ -525,13 +525,13 @@ See problem 3-2.
     pollster_errors = {'PPP': 1.2, 'IPSOS': 4.0, 'SurveyUSA':3.5, 'NonExistant':100.0}
     predict_state_edges(pollster_predictions, pollster_errors) 
     """
-    
+   </code> 
     print 'x'
 
     x
 
 
-
+<code>
     ####The Main function
     
     def electoral_college_outcome(ec_rows, state_edges):
@@ -597,7 +597,7 @@ See problem 3-2.
         print_dict(ec_2012)
         print
     main()
-
+</code>
     Predicted 2012 election results:
     AK -22.0
     AL -18.0
