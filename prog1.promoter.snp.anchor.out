@@ -1,0 +1,80 @@
+BLASTN 2.2.11 [blat]
+
+Reference:  Kent, WJ. (2002) BLAT - The BLAST-like alignment tool
+
+Query= promoter-mutation_reverse_complement
+         (585 letters)
+
+Database: /home/hrwang/workspace/database/nipponbare7/nipponbare7 
+           16 sequences; 375,096,285 total letters
+
+Searching.done
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+Chr7                                                                 1039   e-304
+Chr10                                                                  61   2e-09
+
+
+
+>Chr7 
+          Length = 29697621
+
+ Score = 1039 bits (2682), Expect = e-304
+ Identities = 555/585 (95%)
+ Strand = Plus / Plus
+
+Query: 1       gaaaggaaaatggtacaagctatattgagaaaagctagttatttccgaatccgagtttat 60
+               ||||||||||||| ||||||||||||| ||||||||||||||||||||||||||||||||
+Sbjct: 2839980 gaaaggaaaatgggacaagctatattgggaaaagctagttatttccgaatccgagtttat 2840039
+
+Query: 61      tttggattgctagatcaggtgcttccccgttattccttatatagacttttctcccctaaa 120
+               ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct: 2840040 tttggattgctagatcaggtgcttccccgttattcctcatatagacttttctcccctaaa 2840099
+
+Query: 121     tgtatcaaagggaccaattatatgaggaaaaaaaaggtgtactactacatcgtctatagt 180
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 2840100 tgtatcaaagggaccaattatatgaggaaaaaaaaggtgtactactacatcgtctatagt 2840159
+
+Query: 181     atatggctgctagctacaccggcctcgtctcaaaatatagcaatatagtacttattagaa 240
+               || ||||||||||||||||||||   ||||||||||||||| || |||||||||||||||
+Sbjct: 2840160 atgtggctgctagctacaccggctctgtctcaaaatatagcgatctagtacttattagaa 2840219
+
+Query: 241     tttaaagcatataatagcaggaatctgaactaatatctagtactaaaggcttattcggtt 300
+               ||||||||||| |||| || ||||||| ||||||||||||||||||||||||||||||||
+Sbjct: 2840220 tttaaagcatacaataccatgaatctggactaatatctagtactaaaggcttattcggtt 2840279
+
+Query: 301     tggaggaattttaacctataagaatagaaaaattggaggaatagtaaaacacgcacattt 360
+               | ||||||||| |||| |||||||||| ||||||||||||||||||||||| ||||||||
+Sbjct: 2840280 tagaggaatttcaacccataagaataggaaaattggaggaatagtaaaacatgcacattt 2840339
+
+Query: 361     caatctataggaatttttttcaagaaatttgagtggatggaatttcctatattttctctc 420
+               |||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 2840340 caatttataggattttttttcaagaaatttgagtggatggaatttcctatattttctctc 2840399
+
+Query: 421     cacaacttgtatgaaagaaaaatatcctttggttttcctatatatatatcctacaaatca 480
+               ||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||
+Sbjct: 2840400 cacaacttgtatgaaagaaaaatatcctttggttttcctatatatatattctacgaatca 2840459
+
+Query: 481     aatgacatgcacttatatgaattaatcattagaaatccaaattctttgttttcattcaaa 540
+               |||||| || |||||||||||||||||||| | ||||||||||||| |||||||||||||
+Sbjct: 2840460 aatgacgtgtacttatatgaattaatcattgggaatccaaattcttcgttttcattcaaa 2840519
+
+Query: 541     acgaataatccataagttattattttaggacggagagagtaatgg 585
+               ||||| |||| ||||||||||||||||| ||||||||||||||||
+Sbjct: 2840520 acgaacaatctataagttattattttagaacggagagagtaatgg 2840564
+
+
+
+>Chr10 
+          Length = 23207287
+
+ Score = 61 bits (156), Expect = 2e-09
+ Identities = 33/34 (97%)
+ Strand = Plus / Minus
+
+Query: 499      gaattaatcattagaaatccaaattctttgtttt 532
+                ||||||||| ||||||||||||||||||||||||
+Sbjct: 19043683 gaattaatccttagaaatccaaattctttgtttt 19043650
+
+  Database: /home/hrwang/workspace/database/nipponbare7/nipponbare7
